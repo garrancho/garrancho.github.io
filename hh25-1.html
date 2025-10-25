@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🇩🇪 - Codegenerator</title>
+  <link rel="stylesheet" href="hh25.css">
+
+</head>
+<body data-target-hash="247f46a88a547b9221d2075d5de83c7928d4b209808ff729f49ec0e17f1e2bbd" data-empty-hash="4d616ebf4fd13032f1d15d3fd73cc1b62d3aa020415d7b4cea6443fbacf2cb40" data-celebration="balloons" data-next-page="hh25-2">
+  <header>
+    <h1>🇩🇪 - Supergeheimer Codegenerator</h1>
+  </header>
+
+  <section id="status-panel">
+    <p id="calculation-line" class="status-line empty">Calculation will appear once you begin.</p>
+    <p id="hash-line" class="status-line empty">SHA-256: (awaiting input)</p>
+    <p id="status-message" class="status-line empty">...</p>
+  </section>
+
+  <div id="countdown" class="countdown">
+    <span class="countdown__label">Countdown initialising...</span>
+  </div>
+
+  <main>
+    <section class="intro">
+      <p>
+        Nur grün 🟩, wenn alles 🏠 🏛️ 🎄 🕘 richtig ist.
+      </p>
+    </section>
+
+    <form id="hh25-form" novalidate>
+      <fieldset>
+        <legend>🏠 Nummer der Wohnung</legend>
+        <label for="caretaker-name">Gib die Nummer der Wohnung ein, in der Leonard und Sheldon wohnen.</label>
+        <input type="text" id="caretaker-name" name="caretaker-name" autocomplete="off" placeholder="Nummer der Wohnung">
+      </fieldset>
+
+      <fieldset>
+        <legend>🏛️ Jake</legend>
+        <label for="pumpkin-count">Wie lautet die Nummer des Reviers, in dem Jake, Amy, Holt und ihre Freunde arbeiten?</label>
+        <input type="number" id="pumpkin-count" name="pumpkin-count" min="0" max="9999" placeholder="e.g. 13">
+      </fieldset>
+
+      <fieldset>
+        <legend>🎄 Weihnachtstag</legend>
+        <label for="veil-date">Wann ist das nächste Weihnachten?</label>
+        <input type="date" id="veil-date" name="veil-date">
+      </fieldset>
+
+      <fieldset>
+        <legend>🕘 Hot Dam!</legend>
+        <label for="lantern-time">Amy kommt normalerweise sehr früh zur Arbeit. Deshalb sind alle überrascht, als sie eines Tages zu spät kommt. Captain Holt ist hocherfreut, weil er genau erraten hat, warum sie zu spät ist. Captain Holt rief sogar „Hot Dam!“. Um wie viel Uhr, welche Stunde und Minute, kam Amy an?</label>
+        <input type="time" id="lantern-time" name="lantern-time">
+      </fieldset>
+    </form>
+  </main>
+
+  <script src="hh25.js"></script>
+
+</body>
+</html>
